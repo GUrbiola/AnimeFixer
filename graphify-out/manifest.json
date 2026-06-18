@@ -1,0 +1,152 @@
+{
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer.sln": {
+    "mtime": 1781202560.215433,
+    "ast_hash": "005c8b9f7ccc02a0c01adadc67cc4c55",
+    "semantic_hash": "005c8b9f7ccc02a0c01adadc67cc4c55"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\AnimeFixer.csproj": {
+    "mtime": 1781719208.929931,
+    "ast_hash": "ad994ac65a384c9227d088a9ecce0451",
+    "semantic_hash": "ad994ac65a384c9227d088a9ecce0451"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\CompressForm.Designer.cs": {
+    "mtime": 1781719049.2135482,
+    "ast_hash": "b53931176819175bc2b3cf0b5480c8c0",
+    "semantic_hash": "b53931176819175bc2b3cf0b5480c8c0"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\CompressForm.cs": {
+    "mtime": 1781719112.8278556,
+    "ast_hash": "b62964854f3d939a3cd8c9685b6623c2",
+    "semantic_hash": "b62964854f3d939a3cd8c9685b6623c2"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Form1.Designer.cs": {
+    "mtime": 1781719186.1640174,
+    "ast_hash": "e273becf6740a3586a67ba767a32dcec",
+    "semantic_hash": "e273becf6740a3586a67ba767a32dcec"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Form1.cs": {
+    "mtime": 1781719122.6407154,
+    "ast_hash": "e40690d7a07e9ba3829c74e7f01cc38b",
+    "semantic_hash": "e40690d7a07e9ba3829c74e7f01cc38b"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\MP4FixerForm.Designer.cs": {
+    "mtime": 1781234599.4633844,
+    "ast_hash": "c2bd886be134c4b501bfae488c9aac87",
+    "semantic_hash": "c2bd886be134c4b501bfae488c9aac87"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\MP4FixerForm.cs": {
+    "mtime": 1781234599.4693687,
+    "ast_hash": "277ca71996012443834f1bf0e83f5f91",
+    "semantic_hash": "277ca71996012443834f1bf0e83f5f91"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\MkvRokuForm.Designer.cs": {
+    "mtime": 1781733196.9468997,
+    "ast_hash": "08b6cdd42ec800350ef650ae3b759f13",
+    "semantic_hash": "08b6cdd42ec800350ef650ae3b759f13"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\MkvRokuForm.cs": {
+    "mtime": 1781741595.7740314,
+    "ast_hash": "3d5d69012930254e9138878b8c91ba9e",
+    "semantic_hash": "3d5d69012930254e9138878b8c91ba9e"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Models\\CompressFile.cs": {
+    "mtime": 1781718923.8449388,
+    "ast_hash": "b2ced9f0b588e40d75e67ce5e318163d",
+    "semantic_hash": "b2ced9f0b588e40d75e67ce5e318163d"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Models\\MediaFile.cs": {
+    "mtime": 1781206014.7317133,
+    "ast_hash": "50378ebb27ecae8f847d4141444b0619",
+    "semantic_hash": "50378ebb27ecae8f847d4141444b0619"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Models\\MkvMediaFile.cs": {
+    "mtime": 1781715158.6409104,
+    "ast_hash": "8f1c0dac72cf82ed789c57b8683785bb",
+    "semantic_hash": "8f1c0dac72cf82ed789c57b8683785bb"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Models\\SubtitleTrack.cs": {
+    "mtime": 1781715148.7191474,
+    "ast_hash": "1da9d993edb3356431fac7ca2779eadc",
+    "semantic_hash": "1da9d993edb3356431fac7ca2779eadc"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Program.cs": {
+    "mtime": 1781715489.426128,
+    "ast_hash": "9dae95d131ce508e19da683b1144478d",
+    "semantic_hash": "9dae95d131ce508e19da683b1144478d"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Properties\\AssemblyInfo.cs": {
+    "mtime": 1781202558.8653278,
+    "ast_hash": "43ede3448f841cd6b8cc82f69887d961",
+    "semantic_hash": "43ede3448f841cd6b8cc82f69887d961"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Properties\\Resources.Designer.cs": {
+    "mtime": 1781202558.9321494,
+    "ast_hash": "463c47a41aa4cacec96c8cacd554029f",
+    "semantic_hash": "463c47a41aa4cacec96c8cacd554029f"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Properties\\Settings.Designer.cs": {
+    "mtime": 1781202558.9461167,
+    "ast_hash": "407f6f48f692b2bfe025bd15b610fd2b",
+    "semantic_hash": "407f6f48f692b2bfe025bd15b610fd2b"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Services\\CompressScannerService.cs": {
+    "mtime": 1781718984.516557,
+    "ast_hash": "e39354c7654389ae1ad6c142d5702b56",
+    "semantic_hash": "e39354c7654389ae1ad6c142d5702b56"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Services\\FFmpegService.cs": {
+    "mtime": 1781742450.669099,
+    "ast_hash": "6c47b185c04498fde664e6c94464595b",
+    "semantic_hash": "6c47b185c04498fde664e6c94464595b"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Services\\HandBrakeService.cs": {
+    "mtime": 1781720386.3443332,
+    "ast_hash": "35beaa3303c8fd001106203c9b00709f",
+    "semantic_hash": "35beaa3303c8fd001106203c9b00709f"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Services\\MkvScannerService.cs": {
+    "mtime": 1781715223.3980536,
+    "ast_hash": "99a9624c93a32ff4ca58ad5a809e3f36",
+    "semantic_hash": "99a9624c93a32ff4ca58ad5a809e3f36"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Services\\ScannerService.cs": {
+    "mtime": 1781203965.4550579,
+    "ast_hash": "7767fac241f8b00201a25319dcf8972f",
+    "semantic_hash": "7767fac241f8b00201a25319dcf8972f"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\Services\\SettingsService.cs": {
+    "mtime": 1781718943.0197766,
+    "ast_hash": "0be626c33f86745eafcfd2d3fcc36eb9",
+    "semantic_hash": "0be626c33f86745eafcfd2d3fcc36eb9"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\SubtitleExtractionDialog.Designer.cs": {
+    "mtime": 1781715255.4117136,
+    "ast_hash": "21303d1bb58ba22bf54c3a365154e660",
+    "semantic_hash": "21303d1bb58ba22bf54c3a365154e660"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\AnimeFixer\\SubtitleExtractionDialog.cs": {
+    "mtime": 1781715265.9634397,
+    "ast_hash": "40e215d7a4e8095733edbbb761fb46bf",
+    "semantic_hash": "40e215d7a4e8095733edbbb761fb46bf"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\.github\\copilot-instructions.md": {
+    "mtime": 1781203780.719715,
+    "ast_hash": "1953f5a6e590a211329c8cff6f0fb3f3",
+    "semantic_hash": "1953f5a6e590a211329c8cff6f0fb3f3"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\LICENSE.txt": {
+    "mtime": 1781744005.7745943,
+    "ast_hash": "6d75c57c64742ead9ffcc475c56b4ad0",
+    "semantic_hash": "6d75c57c64742ead9ffcc475c56b4ad0"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\docs\\superpowers\\plans\\2026-06-17-handbrake-compress.md": {
+    "mtime": 1781718801.6537542,
+    "ast_hash": "7fc897593060f2a733e2d0e606e73a1e",
+    "semantic_hash": "7fc897593060f2a733e2d0e606e73a1e"
+  },
+  "D:\\Just For Fun\\CidAnimeFixer\\AnimeFixer\\docs\\superpowers\\plans\\2026-06-17-mkv-roku-compatibility.md": {
+    "mtime": 1781714510.500615,
+    "ast_hash": "2674a0715582afec374d50e40547ac8b",
+    "semantic_hash": "2674a0715582afec374d50e40547ac8b"
+  }
+}
