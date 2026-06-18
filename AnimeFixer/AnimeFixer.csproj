@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8318155-693B-4C5F-8FC2-1FADA228BA60}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AnimeFixer</RootNamespace>
+    <AssemblyName>AnimeFixer</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="MP4FixerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MP4FixerForm.Designer.cs">
+      <DependentUpon>MP4FixerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MkvRokuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MkvRokuForm.Designer.cs">
+      <DependentUpon>MkvRokuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubtitleExtractionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubtitleExtractionDialog.Designer.cs">
+      <DependentUpon>SubtitleExtractionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompressForm.Designer.cs">
+      <DependentUpon>CompressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MkvMediaFile.cs" />
+    <Compile Include="Models\SubtitleTrack.cs" />
+    <Compile Include="Models\CompressFile.cs" />
+    <Compile Include="Services\MkvScannerService.cs" />
+    <Compile Include="Services\HandBrakeService.cs" />
+    <Compile Include="Services\CompressScannerService.cs" />
+    <Compile Include="Models\MediaFile.cs" />
+    <Compile Include="Services\SettingsService.cs" />
+    <Compile Include="Services\ScannerService.cs" />
+    <Compile Include="Services\FFmpegService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MP4FixerForm.resx">
+      <DependentUpon>MP4FixerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MkvRokuForm.resx">
+      <DependentUpon>MkvRokuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubtitleExtractionDialog.resx">
+      <DependentUpon>SubtitleExtractionDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompressForm.resx">
+      <DependentUpon>CompressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
