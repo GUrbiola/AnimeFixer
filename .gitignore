@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# AI agent outputs and configuration
+.github/copilot-instructions.md
+docs/superpowers/
+CLAUDE.md
+.claude/
+/graphify-out/cache
